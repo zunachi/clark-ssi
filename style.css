@@ -1,0 +1,49 @@
+:root {
+  --background: url('background1.jpg');
+}
+
+body {
+  background: var(--background) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  height: 100vh;
+}
+
+main section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  width: 500px;
+}
+
+main a {
+  text-align: center;
+}
+
+main a img {
+  width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+  body {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+
